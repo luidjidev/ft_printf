@@ -6,7 +6,7 @@
 #    By: luisfern <luisfern@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/29 13:05:46 by luisfern          #+#    #+#              #
-#    Updated: 2022/04/19 11:39:28 by luisfern         ###   ########.fr        #
+#    Updated: 2022/04/19 11:45:52 by luisfern         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,6 @@ fclean:
 	rm -rf libft/ft_*.o
 	rm $(NAME)
 
-re:
-	fclean $(NAME)
+re: fclean all
 
 .PHONY: all clean fclean re
