@@ -10,6 +10,6 @@ You can have the subject on project repo.
 
 **To use it in your code you have to include**
 
-`#include "../includes/ft_printf.h"`
+`#include "includes/ft_printf.h"`
 
 All your need, contact me on discord - Luidji#0910
